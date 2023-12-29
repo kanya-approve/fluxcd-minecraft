@@ -1,8 +1,8 @@
-# flux2-kustomize-helm-example
+# fluxcd-minecraft
 
-[![test](https://github.com/kanya-approve/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/kanya-approve/flux2-kustomize-helm-example/actions)
-[![e2e](https://github.com/kanya-approve/flux2-kustomize-helm-example/workflows/e2e/badge.svg)](https://github.com/kanya-approve/flux2-kustomize-helm-example/actions)
-[![license](https://img.shields.io/github/license/fluxcd/flux2-kustomize-helm-example.svg)](https://github.com/kanya-approve/flux2-kustomize-helm-example/blob/main/LICENSE)
+[![test](https://github.com/kanya-approve/fluxcd-minecraft/workflows/test/badge.svg)](https://github.com/kanya-approve/fluxcd-minecraft/actions)
+[![e2e](https://github.com/kanya-approve/fluxcd-minecraft/workflows/e2e/badge.svg)](https://github.com/kanya-approve/fluxcd-minecraft/actions)
+[![license](https://img.shields.io/github/license/fluxcd/fluxcd-minecraft.svg)](https://github.com/kanya-approve/fluxcd-minecraft/blob/main/LICENSE)
 
 For this example we assume a scenario with two clusters: staging and production.
 The end goal is to leverage Flux and Kustomize to manage both clusters while minimizing duplicated declarations.
