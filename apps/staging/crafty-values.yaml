@@ -9,4 +9,4 @@ spec:
   # values:
   #   common:
   #     fallbackDefaults:
-  #       storageClass: standard
+  #       storageClass: hostpath

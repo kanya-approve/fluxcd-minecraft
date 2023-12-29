@@ -19,7 +19,6 @@ spec:
     common:
       fallbackDefaults:
         pvcSize: 5Gi
-        storageClass: hostpath
       kubectlImage:
         repository: bitnami/kubectl
         tag: latest
