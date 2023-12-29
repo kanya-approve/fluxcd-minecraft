@@ -4,6 +4,11 @@ kind: Namespace
 metadata:
   name: agones
 ---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: shulker-system
+---
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
