@@ -4,11 +4,6 @@ kind: Namespace
 metadata:
   name: agones
 ---
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: shulker-system
----
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
@@ -24,7 +19,6 @@ metadata:
   name: agones
   namespace: agones
 spec:
-  interval: 30m
   chart:
     spec:
       chart: agones
@@ -33,6 +27,7 @@ spec:
         name: agones
         namespace: agones
       interval: 12h
+  interval: 30m
   values:
     agones:
       allocator:
