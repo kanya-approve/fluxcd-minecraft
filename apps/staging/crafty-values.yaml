@@ -6,7 +6,7 @@ metadata:
 spec:
   test:
     enable: false
-  values:
-    common:
-      fallbackDefaults:
-        storageClass: standard
+  # values:
+  #   common:
+  #     fallbackDefaults:
+  #       storageClass: standard
